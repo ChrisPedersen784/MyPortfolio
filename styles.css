@@ -170,17 +170,13 @@ table {
   padding: 20px 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   .top-cloud {
-    position: absolute;
-    right: 15%;
-    top: 50px;
+      display: none;
   }
 
   .bottom-cloud {
-    position: absolute;
-    left: 7%;
-    bottom: 150px;
+      display: none;
   }
 
   .codingIMG{
@@ -190,17 +186,12 @@ table {
 
 @media (max-width: 800px) {
   .top-cloud {
-    position: absolute;
-    right: 20%;
-    top: 50px;
-    width: 80px;
+      display: none;
   }
 
   .bottom-cloud {
     position: absolute;
-    left: 7%;
-    bottom: 150px;
-    width: 80px;
+      display: none;
   }
 
   .codingIMG{
