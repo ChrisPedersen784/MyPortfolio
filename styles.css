@@ -75,6 +75,11 @@ div {
 
 }
 
+.aboutMe {
+  position: relative;
+  text-align: center;
+}
+
 .skills {
   background-color: white;
   text-align: center;
