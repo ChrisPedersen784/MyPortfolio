@@ -1,116 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekly Learning Summary</title>
+    <link rel="stylesheet" href="web.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\styles.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weekly Learning Summary</title>
-  <link rel="stylesheet" href="web.css">
-  <link rel="stylesheet" type="text/css" href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\styles.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link
+      rel="icon"
+      href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<link rel="icon" href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\favicon.ico">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-  rel="stylesheet">
-</head>
+  <body>
+    <nav class="menu navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\DWH\work.html"
+                id="dataWarehouseDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Data Warehouse
+              </a>
+              <!-- Dropdown menu for Data Warehouse -->
+              <div
+                class="dropdown-menu"
+                aria-labelledby="dataWarehouseDropdown"
+              >
+                <a class="dropdown-item" href="goal.html">Læringsmål</a>
+                <a class="dropdown-item" href="schedule.html">Læringsplan</a>
+                <a class="dropdown-item" href="work.html">Arbejde</a>
+                <a class="dropdown-item" href="litterature.html">Kilder</a>
+              </div>
+            </li>
 
-<body>
-
-
-  <nav class="menu navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="C:\Users\chris\OneDrive\Desktop\Git Repository\MyPortfolio\DWH\work.html" id="dataWarehouseDropdown" role="button"
-              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Data Warehouse
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="work.html"
+                id="dataWarehouseDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Web-Development
+              </a>
+              <!-- Dropdown menu for Data Warehouse -->
+              <div
+                class="dropdown-menu"
+                aria-labelledby="dataWarehouseDropdown"
+              >
+                <a class="dropdown-item" href="goal.html">Læringsmål</a>
+                <a class="dropdown-item" href="schedule.html">Læringsplan</a>
+                <a class="dropdown-item" href="work.html">Arbejde</a>
+                <a class="dropdown-item" href="litterature.html">Kilder</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutMeSection">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactSection">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <a href="#AboutMeSection">
+              <img src="images/arrow-down.png" alt="" width="45px" />
             </a>
-            <!-- Dropdown menu for Data Warehouse -->
-            <div class="dropdown-menu" aria-labelledby="dataWarehouseDropdown">
-              <a class="dropdown-item" href="goal.html">Læringsmål</a>
-              <a class="dropdown-item" href="schedule.html">Læringsplan</a>
-              <a class="dropdown-item" href="work.html">Arbejde</a>
-              <a class="dropdown-item" href="litterature.html">Kilder</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="work.html" id="dataWarehouseDropdown" role="button"
-              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Web-Development
-            </a>
-            <!-- Dropdown menu for Data Warehouse -->
-            <div class="dropdown-menu" aria-labelledby="dataWarehouseDropdown">
-              <a class="dropdown-item" href="goal.html">Læringsmål</a>
-              <a class="dropdown-item" href="schedule.html">Læringsplan</a>
-              <a class="dropdown-item" href="work.html">Arbejde</a>
-              <a class="dropdown-item" href="litterature.html">Kilder</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#AboutMeSection">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#ContactSection">Contact</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          <a href="#AboutMeSection"> <img src="images/arrow-down.png" alt="" width="45px"> </a>
-        </span>
+          </span>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
     <header>
-        <h1>Web Development</h1>
-    
+      <h1>Web Development</h1>
     </header>
-
-
 
     <section class="content-layout">
       <h2>Learning Goals</h2>
       <div class="learning-goals">
-          <h3>Kortsigtede læringsmål</h3>
-          <p>Webudvikling med React:</p>
-          <ul>
-              <li>Forstå grundlæggende React-koncepter som komponenter, props, state og livscyklusmetoder.</li>
-              <li>Kunne oprette en simpel React-applikation med JSX og komponentstruktur.</li>
-              <li>Forstå og anvende tilstandsstyring med React Hooks som useState og useEffect.</li>
-              <li>Integrere eksterne API'er i React-apps og vise dynamiske data.</li>
-              <li>Implementere formularer og håndtere brugerinput ved hjælp af kontrolleret komponenttilstand.</li>
-              <li>Styling af React-komponenter ved hjælp af CSS eller et CSS-in-JS bibliotek som styled-components.</li>
-          </ul>
-  
-          <h3>Langsigtede læringsmål</h3>
-          <p>Webudvikling med React:</p>
-          <ul>
-              <li>Bygge avancerede React-applikationer med komplekse brugergrænseflader.</li>
-              <li>Forstå og implementere asynkrone operationer som API-kald og promises.</li>
-              <li>Integrere autentificering og autorisation i React-applikationer.</li>
-              <li>Implementere testning ved hjælp af enheds- og integrationstestværktøjer og React Testing Library.</li>
-          </ul>
+        <h3>Kortsigtede læringsmål</h3>
+        <p>Webudvikling med React:</p>
+        <ul>
+          <li>
+            Forstå grundlæggende React-koncepter som komponenter, props, state
+            og livscyklusmetoder.
+          </li>
+          <li>
+            Kunne oprette en simpel React-applikation med JSX og
+            komponentstruktur.
+          </li>
+          <li>
+            Forstå og anvende tilstandsstyring med React Hooks som useState og
+            useEffect.
+          </li>
+          <li>
+            Integrere eksterne API'er i React-apps og vise dynamiske data.
+          </li>
+          <li>
+            Implementere formularer og håndtere brugerinput ved hjælp af
+            kontrolleret komponenttilstand.
+          </li>
+          <li>
+            Styling af React-komponenter ved hjælp af CSS eller et CSS-in-JS
+            bibliotek som styled-components.
+          </li>
+        </ul>
+
+        <h3>Langsigtede læringsmål</h3>
+        <p>Webudvikling med React:</p>
+        <ul>
+          <li>
+            Bygge avancerede React-applikationer med komplekse
+            brugergrænseflader.
+          </li>
+          <li>
+            Forstå og implementere asynkrone operationer som API-kald og
+            promises.
+          </li>
+          <li>
+            Integrere autentificering og autorisation i React-applikationer.
+          </li>
+          <li>
+            Implementere testning ved hjælp af enheds- og
+            integrationstestværktøjer og React Testing Library.
+          </li>
+        </ul>
       </div>
-  </section>
-  
-
-
+    </section>
 
     <!-- Add any additional scripts or link to external JavaScript files here -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
